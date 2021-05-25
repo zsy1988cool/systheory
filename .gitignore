@@ -1,0 +1,6 @@
+.idea
+*.exe
+go.mod
+
+vendor
+
