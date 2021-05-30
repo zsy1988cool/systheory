@@ -6,6 +6,10 @@ import (
 )
 
 func main() {
+	testCgroup()
+}
+
+func testCgroup()  {
 	fmt.Println("演示cgroup")
 
 	//mount -t cgroup -o memory memory /sys/fs/cgroup/memory
